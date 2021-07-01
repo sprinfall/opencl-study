@@ -1,4 +1,5 @@
 set(TARGETS
+	version_check
 	saxpy
 	)
 
