@@ -1,5 +1,5 @@
-#ifndef COMMON_INL_
-#define COMMON_INL_
+#ifndef COMMON_INC_
+#define COMMON_INC_
 
 #ifndef CL_HPP_TARGET_OPENCL_VERSION
 #error Please include this file after define CL_HPP_TARGET_OPENCL_VERSION !
@@ -26,4 +26,4 @@ static std::string DeviceTypeName(cl_device_type device_type) {
   return ret;
 }
 
-#endif  // COMMON_INL_
+#endif  // COMMON_INC_

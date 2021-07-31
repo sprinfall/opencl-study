@@ -29,6 +29,8 @@ if(MSVC)
     add_definitions(-D_CRT_SECURE_NO_WARNINGS)
 endif()
 
+set_property(GLOBAL PROPERTY USE_FOLDERS ON)
+
 set(THIRD_PARTY_DIR ${PROJECT_SOURCE_DIR}/third_party)
 
 # OpenCL C API

@@ -14,7 +14,7 @@
 #define CL_HPP_ENABLE_EXCEPTIONS
 #include "CL/opencl.hpp"  // or cl2.hpp
 
-#include "common.inl"  // for DeviceTypeName()
+#include "common.inc"  // for DeviceTypeName()
 
 // Use C++11 raw string literals for kernel source code.
 static const std::string kSaxpyKernelCL = R"CLC(
